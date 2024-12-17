@@ -1,0 +1,118 @@
+h1 {
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 50px;
+}
+
+.encadre {
+    border: 2px solid #000000;
+    padding: 0px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.image-haut-gauche {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+.image-haut-droite {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.Airpods Max {
+    width: 60%;
+    margin: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center !important;
+}
+
+.encadre2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+
+.encadre2 img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    object-fit: contain;
+}
+
+h2 {
+    font-family: Helvetica Neue;
+}
+
+.APMAX {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: Helvetica Neue;
+    margin-top: 50px;
+}
+
+.conteneur {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.paragraphe {
+    max-width: 60%;
+    text-align: justify;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.prix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f9f9f9;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    top: 320px;
+    left: 800px;
+    text-align: center;
+}
+
+
+#prix {
+    font-size: 24px;
+    color: green;
+    margin-left: 10px;
+}
